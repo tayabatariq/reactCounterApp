@@ -79,12 +79,19 @@ setTimeout(() => {
     const [text , setText]=useState("Enter the Text to Analyze....")
   return (
     <>
+    <h1 className='text-7xl  font-bold  w-full h-96 text-center  p-24 uppercase max-sm:text-5xl max-sm:p-10 text-white'  style={{
+    backgroundImage: "url('https://images.unsplash.com/photo-1543269664-7eef42226a21?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDM0fHx8ZW58MHx8fHx8')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat:"no-repeat"
+    
+  }}> Transform Text Instantly with a Click</h1>
 
-    <div className="w-full pb-12 h-full bg-zinc-200  flex flex-col justify-center items-center gap-3">
-     <h1 className='text-6xl  font-bold  m-12 text-center '> Transform Text Instantly with a Click</h1>
+    <div id='home' className="w-full pt-10  pb-12 h-full bg-zinc-200  flex flex-col justify-center items-center gap-3">
+     
 
         <textarea name="text" id="text" value={text} onChange={handleOnchange}  className="resize-none bg-zinc-50 rounded-md p-2 border-2 border-zinc-700 w-full md:w-3/4 h-48 md:h-64"></textarea>
-        <div className='flex gap-3 m-5 max-sm:flex-col '>
+        <div className='flex gap-3 m-5 max-md:flex-col  '>
             <button onClick={uperchangehandler} className='bg-blue-500 p-2 text-white rounded-sm hover:rounded-lg hover:bg-blue-600'>Uppercase to conversion</button>
             <button onClick={lowerchangehandler} className='bg-blue-500 p-2 text-white rounded-sm hover:rounded-lg hover:bg-blue-600'>LowerCase conversion</button>
             <button onClick={captilxedhandler} className='bg-blue-500 p-2 text-white rounded-sm hover:rounded-lg hover:bg-blue-600'>Captilized text</button>
