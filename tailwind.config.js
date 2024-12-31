@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        roboto: [ "Montserrat", "serif"], // Add your font here
+      },
+      
     },
   },
   plugins: [],
