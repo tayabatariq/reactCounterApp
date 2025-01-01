@@ -79,7 +79,7 @@ setTimeout(() => {
     const [text , setText]=useState("Enter the Text to Analyze....")
   return (
     <>
-    <h1 id="homee" className='text-7xl  font-bold  w-full h-96 text-center  p-24 uppercase max-sm:text-5xl max-sm:p-10 text-white'  style={{
+    <h1 id="homee" className='text-7xl max-md:text-6xl font-bold  w-full h-96 text-center  p-24 uppercase max-sm:text-5xl max-sm:p-10 text-white'  style={{
     backgroundImage: "url('https://images.unsplash.com/photo-1543269664-7eef42226a21?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDM0fHx8ZW58MHx8fHx8')",
     backgroundSize: "cover",
     backgroundPosition: "center",

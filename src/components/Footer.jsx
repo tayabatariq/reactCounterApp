@@ -27,11 +27,11 @@ function Footer() {
             <div>
                 <p className='text-3xl uppercase font-bold  mb-3 '>Follw Us</p>
                 <p>Stay connented with us</p>
-             <div className=' gap-4 mt-5  text-2xl transition-all duration-500'>
-               <a target='_blank' href="https://www.linkedin.com/in/tayaba-tariq-56783529a/"> <FontAwesomeIcon icon={faLinkedin} className='hover:scale-125 hover:text-blue-400'/></a>
-               <a target='_blank' href="#"> <FontAwesomeIcon icon={faFacebook} className='hover:scale-125 hover:text-blue-400'/></a>
-               <a target='_blank' href="https://wa.me/3085437544"> <FontAwesomeIcon icon={faWhatsapp} className='hover:scale-125 hover:text-blue-400'/></a>
-               <a target='_blank' href="https://www.instagram.com/tayabatariq2023/"> <FontAwesomeIcon icon={faInstagram} className='hover:scale-125 hover:text-blue-400'/></a>
+             <div className='  mt-5   text-2xl transition-all duration-500'>
+               <a target='_blank' href="https://www.linkedin.com/in/tayaba-tariq-56783529a/"> <FontAwesomeIcon icon={faLinkedin} className='hover:scale-125  ml-2 hover:text-blue-400'/></a>
+               <a target='_blank' href="#"> <FontAwesomeIcon icon={faFacebook} className='hover:scale-125 ml-2 hover:text-blue-400'/></a>
+               <a target='_blank' href="https://wa.me/3085437544"> <FontAwesomeIcon icon={faWhatsapp} className='hover:scale-125 ml-2 hover:text-blue-400'/></a>
+               <a target='_blank' href="https://www.instagram.com/tayabatariq2023/"> <FontAwesomeIcon icon={faInstagram} className='hover:scale-125 ml-2 hover:text-blue-400'/></a>
                 </div>
 
             </div>
