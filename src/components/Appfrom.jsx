@@ -79,7 +79,7 @@ setTimeout(() => {
     const [text , setText]=useState("Enter the Text to Analyze....")
   return (
     <>
-    <h1 className='text-7xl  font-bold  w-full h-96 text-center  p-24 uppercase max-sm:text-5xl max-sm:p-10 text-white'  style={{
+    <h1 id="homee" className='text-7xl  font-bold  w-full h-96 text-center  p-24 uppercase max-sm:text-5xl max-sm:p-10 text-white'  style={{
     backgroundImage: "url('https://images.unsplash.com/photo-1543269664-7eef42226a21?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDM0fHx8ZW58MHx8fHx8')",
     backgroundSize: "cover",
     backgroundPosition: "center",
@@ -103,7 +103,7 @@ setTimeout(() => {
 
 
         </div>
-<div className='flex w-full h-full gap-5 justify-start flex-col px-24 max-sm:px-10'>
+<div className='flex w-full h-full gap-5 justify-start flex-col px-24  max-sm:px-10'>
 <h1 className='text-4xl font-bold  '>Your text summary is : </h1>
 <div className='flex max-sm:flex-col gap-24 m-2 '>
 <p className='text-2xl '> <span className='font-bold'>{text.split(" ").length}</span> words and  <span className='font-bold'>{text.length}</span> characters</p>

@@ -2,9 +2,9 @@ import React from 'react'
 
 function Aboutpage() {
   return (
-    <div id="about" className='w-full h-full bg-zinc-200 flex justify-center items-center flex-col gap-10 px-12 py-12'>
+    <div id="about" className='w-full h-full bg-zinc-200 flex justify-center items-center flex-col gap-10 px-12 max-sm:px-4 max-sm:py-4 max-md:px-6 max-md:py-5 max-lg:px-3 text-center py-12'>
         <h1 className='text-6xl  font-bold uppercase max-sm:text-3xl max-md:text-4xl  font-serif'>About Text Converter App</h1>
-        <div className='w-full gap-10 px-24 flex max-sm:flex-col max-sm:px-4 max-md:flex-col max-md:px-5'>
+        <div className='w-full gap-10 px-24 max-lg:px-10 flex max-sm:flex-col max-sm:px-4 max-md:flex-col max-md:px-5'>
             <div className='h-full w-full rounded-md '><img className='rounded-md' src="https://images.unsplash.com/photo-1514543250559-83867827ecce?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8" alt="" /></div>
       <div className='w-full text-2xl text-left '>
       <p > 
