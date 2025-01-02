@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Navbar from './components/Navbar'
 import Appfrom from './components/Appfrom'
 import Aboutpage from './components/Aboutpage'
@@ -7,6 +7,12 @@ import Box from './components/Box'
 import Footer from './components/Footer'
 
 function App() {
+  useEffect(() => {
+    alert("Hello! Welcome To my Counter Convertor App.👋")
+  
+    
+  }, [])
+  
 
   return (
  <>
