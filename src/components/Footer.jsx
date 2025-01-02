@@ -6,7 +6,7 @@ function Footer() {
   return (
     <>
     <div className='w-full text-white max-sm:h-full max-md:h-full h-80 bg-zinc-800 max-lg:h-full flex items-center max-lg:px-20 max-lg:py-10 gap-10 justify-center flex-col max-sm:py-4  px-32 max-sm:px-4 max-md:px-6'>
-        <div className='flex w-full  max-sm:text-center  max-md:text-center max-md:py-5 max-sm:py-4 gap-16 max-sm:flex-col max-lg:gap-5 max-md:flex-col max-sm:gap-5 max-md:gap-10 ' >
+        <div className='flex w-full max-sm:text-center  max-md:text-center max-md:py-5 max-sm:py-4 gap-16 max-sm:flex-col max-lg:gap-5 max-md:flex-col max-sm:gap-5 max-md:gap-10 ' >
             <div className='w-1/5 max-sm:w-full max-md:w-full max-sm:text-center'>
                 <p className='text-3xl uppercase font-bold mb-3 '>About us</p>
                 <p className='text-left+'>We are committed to providing a simple and efficient tool for case conversion. Whether you're a writer, developer, or student, our app makes formatting text effortless.</p>

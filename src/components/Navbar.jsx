@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
@@ -6,6 +6,8 @@ import { faFacebook, faInstagram, faLinkedin, faWhatsapp } from '@fortawesome/fr
 
 
 function Navbar(props) {
+  const [open,setOpen]=useState(false)
+ 
     
   return (
     <>
@@ -16,16 +18,16 @@ function Navbar(props) {
             <a className='hover:text-blue-500'  href="#about">{props.aboutText}</a>
             <a  className='hover:text-blue-500' href="#feature">Feautures</a>
         </div>
-        <FontAwesomeIcon  className='hidden max-sm:block text-3xl  max-md:block ' icon={faBars}/>
+        <FontAwesomeIcon onClick={()=>{setOpen(!open)}}  className=' hidden max-sm:block text-3xl  max-md:block ' icon={faBars}/>
    </nav>
-   <div className='w-96 h-3/5 bg-black p-12 text-white hidden absolute top-1 right-0'>
+   <div className={`drop-down ${open ?'active ': 'inactive'} w-full h-2/5  bg-zinc-800 p-12 pb-20 text-white  absolute top-20 right-0`} >
             <div className='flex-col items-start justify-start text-2xl gap-3 w-full uppercase font-bold h-full flex'>
             <a  className='hover:text-blue-500 '  href="">Home</a>
             <a className='hover:text-blue-500 '  href="#about">{props.aboutText}</a>
             <a  className='hover:text-blue-500 ' href="#feature">Feautures</a>
             </div>
-        <FontAwesomeIcon className='hidden max-sm:block absolute top-4 right-3  text-6xl  max-md:block ' icon={faXmark}/>
-          <div className=' flex gap-7  text-2xl transition-all duration-500'>
+            
+          <div className=' flex gap-7  text-4xl transition-all duration-500'>
                        <a target='_blank' href="https://www.linkedin.com/in/tayaba-tariq-56783529a/"> <FontAwesomeIcon icon={faLinkedin} className='hover:scale-125 hover:text-blue-400'/></a>
                        <a target='_blank' href="#"> <FontAwesomeIcon icon={faFacebook} className='hover:scale-125 hover:text-blue-400'/></a>
                        <a target='_blank' href="https://wa.me/3085437544"> <FontAwesomeIcon icon={faWhatsapp} className='hover:scale-125 hover:text-blue-400'/></a>
